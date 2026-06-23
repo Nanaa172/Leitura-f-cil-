@@ -7,7 +7,7 @@ function aumentarFonte(){
 
 function diminuirFonte(){
     if (tamanhoFonte > 14){
-        tamnhoFonte -= 2;
+        tamanhoFonte -= 2;
         document.getElementById("texto").style.fontsize = tamanhoFonte + "px";
     }
 }
